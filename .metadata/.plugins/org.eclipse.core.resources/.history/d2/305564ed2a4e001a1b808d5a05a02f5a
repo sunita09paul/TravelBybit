@@ -1,0 +1,16 @@
+package com.vetty.utils;
+
+public class VariableInitilize {
+	
+	public  static String getEnv() {
+		return env;
+	}
+
+	public  void setEnv(String env) {
+		this.env = env;
+	}
+
+	private static String env;
+	
+
+}

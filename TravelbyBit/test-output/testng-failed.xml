@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="env" value="qa"/>
+  <parameter name="Browser" value="chrome"/>
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="env" value="qa"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.demo.test.LoginTest">
+        <methods>
+          <include name="Initilize"/>
+          <include name="cleanUpReport"/>
+          <include name="test1"/>
+          <include name="initilizeReport"/>
+        </methods>
+      </class> <!-- com.demo.test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

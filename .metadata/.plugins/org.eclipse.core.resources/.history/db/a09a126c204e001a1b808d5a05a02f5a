@@ -1,0 +1,5 @@
+package com.vetty.actions;
+
+public class BaseClass {
+
+}

@@ -1,0 +1,5 @@
+package com.vetty.locators;
+
+public class LoginLocators {
+
+}

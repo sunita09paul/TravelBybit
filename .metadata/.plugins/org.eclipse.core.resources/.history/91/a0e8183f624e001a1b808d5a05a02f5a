@@ -1,0 +1,17 @@
+package com.vetty.actions;
+
+import com.vetty.locators.LoginLocators;
+
+public class SSNTraceSubmission extends BaseClass {
+	LoginLocators loc = new LoginLocators(driver);
+
+	
+	public void Login() {
+		loc.Email.sendKeys("shweta.applicant+263@gmail.com");
+		loc.Password.sendKeys("123456");
+		loc.LOginbtn.click();
+		
+		
+	}
+
+}

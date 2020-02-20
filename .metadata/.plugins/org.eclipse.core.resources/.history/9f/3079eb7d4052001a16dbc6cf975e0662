@@ -1,0 +1,33 @@
+package com.demo;
+
+public class Animal {
+	
+	public static void main(String[]arg) {
+		 
+		
+		 
+	}
+	
+	
+	  Animal(){ System.out.println("Animal is parent class"); }
+	 
+
+}
+class Dog extends Animal{
+	
+
+	Dog(){
+		System.out.println("Dog is child class");
+		
+	
+	}
+
+	 
+		 
+		 
+	 }
+	 
+	 
+	 
+
+	

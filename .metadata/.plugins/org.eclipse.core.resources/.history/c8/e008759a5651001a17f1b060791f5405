@@ -1,0 +1,16 @@
+package com.test.login;
+
+
+
+
+SSNTraceSubmission obj1 = new SSNTraceSubmission()
+//SSNTraceSubmission obj = new SSNTraceSubmission();
+
+public class LoginTest {
+	
+	@Test
+	public void test() {
+      obj.Login();
+	}
+
+}

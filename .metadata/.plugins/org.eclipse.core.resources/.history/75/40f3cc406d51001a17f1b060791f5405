@@ -1,0 +1,19 @@
+package com.vetty.actions;
+
+import com.vetty.locators.LoginLocators;
+import com.vetty.utils.PrppertyFileReader;
+
+public class SSNTraceSubmission extends BaseClass {
+	LoginLocators loc = new LoginLocators(driver);
+   PrppertyFileReader prop = new PrppertyFileReader();
+   
+	public void Login() {
+		loc.Email.sendKeys(prop.getProperties("username"));
+		Thread.sleep(1000);
+		loc.Password.sendKeys(prop.getProperties("passowrd"));
+		loc.LOginbtn.click();
+		
+		
+	}
+
+}
